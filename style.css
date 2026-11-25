@@ -1,6 +1,7 @@
 :root {
     --accent: #2a7de1;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -31,13 +32,13 @@ nav a {
 }
 
 nav a:hover {
-    font-weight: bold;
     color: #cccccc;
 
 }
 
 header {
     padding: 60px 20px;
+    text-align: center;
     /* border: 2px solid black; */
     /* border-radius: 10px; */
 }
@@ -101,9 +102,10 @@ main {
 
 #skills,
 #contact {
-    border: 2px solid black;
+    border: 1px solid #ddd;
     padding: 10px;
-    text-decoration: none;
+    border-radius: 8px;
+    padding: 20px;
 
 }
 
